@@ -1,13 +1,40 @@
-import Books from "../../../src/components/Cities.vue";
-import { shallowWithIntl } from "@vue/test-utils";
+import { mount } from "@vue/test-utils";
+import Books from "@/components/Books.vue";
 
-describe("Home", () => {
-  it("click does something", async () => {
-    const wrapper = shallowWithIntl(<Books />);
-    const input = wrapper.dive().find("input"); //Not finding the button
-    const instance = wrapper.dive().instance();
-    const spy = jest.spyOn(instance, "filterBooks");
-    instance.filterBooks();
+describe("Books.vue", () => {
+  test("Crucial method exists - filterBooks", () => {
+    // Arrange
+    const wrapper = mount(Books);
+
+    // Act
+    const instance = wrapper.vm;
+    const filterBooks = instance.filterBooks;
+
+    // Assert
+    if (filterBooks != undefined) {
+      // Pass test
+      expect(true).toBe(true);
+    } else {
+      // Fail test
+      expect(true).toBe(false);
+    }
   });
 
+  test("Crucial method exists - setBook", () => {
+    // Arrange
+    const wrapper = mount(Books);
+
+    // Act
+    const instance = wrapper.vm;
+    const setBook = instance.setBook;
+
+    // Assert
+    if (setBook != undefined) {
+      // Pass test
+      expect(true).toBe(true);
+    } else {
+      // Fail test
+      expect(true).toBe(false);
+    }
+  });
 });

@@ -41,22 +41,28 @@ export default {
       showListGroup: false
     };
   },
-  computed: {
-    books() {
-      return this.$store.getters["bks/books"];
-    }
-  },
+  /* 
+		Commenting this out, but it is another way 
+	  to utilize the store data in the methods (line 57 & 63)
+	*/
+  // computed: {
+  //   books() {
+  //     return this.$store.getters["bks/books"];
+  //   }
+  // },
   methods: {
     // Build new array by filtering books with user input
     filterBooks() {
       if (this.book.length >= 3) {
-        let filteredBooksScoped = this.books.filter((book) =>
-          book.title.toLowerCase().match(this.book.toLowerCase())
+        // let filteredBooksScoped = this.books.filter( // Use computed property
+        let filteredBooksScoped = this.$store.getters["bks/books"].filter(
+          (book) => book.title.toLowerCase().match(this.book.toLowerCase())
         );
 
         if (filteredBooksScoped.length == 0) {
-          filteredBooksScoped = this.books.filter((book) =>
-            book.author.toLowerCase().match(this.book.toLowerCase())
+          // filteredBooksScoped = this.books.filter( // Use computed property
+          filteredBooksScoped = this.$store.getters["bks/books"].filter(
+            (book) => book.author.toLowerCase().match(this.book.toLowerCase())
           );
         }
 

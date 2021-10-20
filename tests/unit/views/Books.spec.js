@@ -1,12 +1,12 @@
-import Books from "../../../src/views/Books.vue";
+import Books from "@/views/Books.vue";
 import { mount } from "@vue/test-utils";
 
-describe("Home", () => {
-  test("Exists", () => {
+describe("TheNavbar", () => {
+  test("Component Render Exists", () => {
     // Arrange
     const wrapper = mount(Books);
 
     // Assert
-    expect(wrapper.find("script").exists).toBe(true);
+    expect(wrapper.find("books").exists).toBeTruthy();
   });
 });

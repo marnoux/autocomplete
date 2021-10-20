@@ -7,23 +7,23 @@ const routes = [
 	{
 		path: '/:pathMatch(.*)*', //All other urls lead here
 		name: 'Home',
-		component: Home,
+		component: Home
 	},
 	{
 		path: '/books',
 		name: 'Books',
-		component: Books,
+		component: Books
 	},
 	{
 		path: '/cities',
 		name: 'Cities',
-		component: Cities,
-	},
+		component: Cities
+	}
 ];
 
 const router = createRouter({
 	history: createWebHashHistory(),
-	routes,
+	routes
 });
 
 export default router;

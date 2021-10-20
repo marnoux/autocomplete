@@ -24,13 +24,13 @@ export default {
 				'thousand oaks',
 				'thunder bay',
 				'tokyo',
-				'tulsa',
-			],
+				'tulsa'
+			]
 		};
 	},
 	getters: {
 		cities(state) {
 			return state.cities;
-		},
-	},
+		}
+	}
 };

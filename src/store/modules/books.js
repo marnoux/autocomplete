@@ -5,42 +5,42 @@ export default {
 			books: [
 				{
 					title: 'Don Quixote',
-					author: 'Miguel De Cervantes',
+					author: 'Miguel De Cervantes'
 				},
 				{
 					title: "Pilgrim's Progress",
-					author: 'John Bunyan',
+					author: 'John Bunyan'
 				},
 				{
 					title: 'Robinson Crusoe',
-					author: 'Daniel Defoe',
+					author: 'Daniel Defoe'
 				},
 				{
 					title: "Gulliver's Travels",
-					author: 'Jonathan Swift',
+					author: 'Jonathan Swift'
 				},
 				{
 					title: 'Tom Jones',
-					author: 'Henry Fielding',
+					author: 'Henry Fielding'
 				},
 				{
 					title: 'Clarissa',
-					author: 'Samuel Richardson',
+					author: 'Samuel Richardson'
 				},
 				{
 					title: 'Tristram Shandy',
-					author: 'Laurence Sterne',
+					author: 'Laurence Sterne'
 				},
 				{
 					title: 'Tristan and Iseult',
-					author: 'Gottfried von Strassburg',
-				},
-			],
+					author: 'Gottfried von Strassburg'
+				}
+			]
 		};
 	},
 	getters: {
 		books(state) {
 			return state.books;
-		},
-	},
+		}
+	}
 };

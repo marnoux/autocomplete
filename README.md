@@ -1,8 +1,8 @@
-# autocomplete
+# Autocomplete | StoryTeq Assesman
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
@@ -24,6 +24,3 @@ yarn test:unit
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

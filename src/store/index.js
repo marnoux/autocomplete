@@ -9,6 +9,6 @@ export default createStore({
 	actions: {},
 	modules: {
 		bks: booksModule,
-		cts: citiesModule,
-	},
+		cts: citiesModule
+	}
 });

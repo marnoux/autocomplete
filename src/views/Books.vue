@@ -7,7 +7,7 @@ import Books from '../components/Books.vue';
 
 export default {
 	components: {
-		Books,
-	},
+		Books
+	}
 };
 </script>

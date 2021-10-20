@@ -1,3 +1,4 @@
+// Store module for cities
 export default {
 	namespaced: true,
 	state() {

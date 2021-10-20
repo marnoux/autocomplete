@@ -1,3 +1,4 @@
+// Store module for books
 export default {
 	namespaced: true,
 	state() {

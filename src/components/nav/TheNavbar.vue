@@ -7,6 +7,7 @@
 </template>
 
 <style scoped>
+/* Scoped styles that only apply to the navbar */
 #nav {
 	padding: 30px;
 	letter-spacing: 5px;

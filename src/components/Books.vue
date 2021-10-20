@@ -74,6 +74,7 @@ export default {
 					);
 				}
 
+				// Populate array that will be used to iterate through and display values in the list-group
 				if (filteredBooksScoped.length > 0) {
 					for (let i = 0; i < filteredBooksScoped.length; i++) {
 						let arrayString =
@@ -86,6 +87,7 @@ export default {
 						}
 					}
 				} else {
+					// If no matching values were found, clear the array and display the no-results message
 					this.filteredBooks = [];
 					this.noResults = true;
 				}

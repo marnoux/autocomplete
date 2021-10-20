@@ -1,3 +1,4 @@
+// Main store configuration
 import { createStore } from 'vuex';
 
 import booksModule from './modules/books.js';

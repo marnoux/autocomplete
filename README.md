@@ -11,7 +11,6 @@ cd {{ A local directory }}
 git clone https://github.com/marnoux/autocomplete.git
 cd autocomplete
 npm install
-
 ```
 
 
@@ -28,7 +27,8 @@ npm run serve
 From a browser; navigate to [Localhost](http://localhost:8080/#/) (Please note the attached URL is the default port, yours could differ.  See the console output for the correct URL)
 
 
-*For Example:* 
+*For Example:*
+
 ![localhost](https://i.imgur.com/cOIa36r.png)
 
 
@@ -38,7 +38,9 @@ From a browser; navigate to [Localhost](http://localhost:8080/#/) (Please note t
 npm test
 ```
 *You can expect the following output:* 
+
 ![unit tests](https://i.imgur.com/iLYkPxF.png)
+
 
 
 
@@ -83,3 +85,5 @@ Build a Vue.js application that lets users search for a cities and books in a pr
 	* If no matching titles are found,  a fallback check will occur which matches books on the author name
 		* ![enter image description here](https://i.imgur.com/Twi3qzX.png)
 
+### Thank you for your time! 
+I hope you had as much fun reviewing the project as I had coding it!

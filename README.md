@@ -1,7 +1,7 @@
 
 # Autocomplete | StoryTeq Assessment
 
-  
+## [![Live Demo](https://img.shields.io/website?label=Live-Demo&style=for-the-badge&url=https://marnoux.github.io/autocomplete/)](https://marnoux.github.io/autocomplete/)
 
 ## Project setup
 

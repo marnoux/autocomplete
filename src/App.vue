@@ -8,8 +8,8 @@ import TheNavbar from './components/nav/TheNavbar.vue';
 
 export default {
 	components: {
-		TheNavbar,
-	},
+		TheNavbar
+	}
 };
 </script>
 
@@ -30,6 +30,11 @@ export default {
 	text-align: center;
 }
 
+.alert {
+	width: 26rem !important;
+	justify-content: center;
+}
+
 h3 {
 	margin: 40px 0 0;
 }
@@ -45,9 +50,8 @@ input {
 	width: 31.2rem !important;
 }
 
-li {
-	margin: 0 100px;
-	border-style: solid;
+ul {
+	width: 31.2rem;
 	border-color: rgba(192, 192, 192, 0.212);
 	cursor: pointer;
 }
